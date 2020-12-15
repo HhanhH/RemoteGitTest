@@ -1,2 +1,6 @@
 package com.myspace.remotegittest;
 
+rule "rule1"
+when eval(true)
+then
+end
