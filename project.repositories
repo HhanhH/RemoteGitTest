@@ -19,17 +19,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <id>guvnor-m2-repo</id>
+        <url>http://10.38.160.194:8341/kie-wb/maven2/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>http://10.38.160.194:8341/kie-wb/maven2/</url>
-        <source>SETTINGS</source>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
   </repositories>
